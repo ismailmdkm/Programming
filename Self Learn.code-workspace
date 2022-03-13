@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "C++"
+		},
+		{
+			"path": "Python"
+		},
+		{
+			"path": "C"
+		},
+		{
+			"name": "Programming",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp"
+		}
+	}
+}
