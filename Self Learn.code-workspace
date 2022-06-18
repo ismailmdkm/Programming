@@ -10,13 +10,35 @@
 			"path": "C"
 		},
 		{
-			"name": "Programming",
-			"path": "."
+			"path": "Python\\Flask_Blog"
 		}
 	],
 	"settings": {
 		"files.associations": {
 			"ostream": "cpp"
 		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		{
+			"name": "Attach to Chrome",
+			"port": 5000,
+			"request": "attach",
+			"type": "chrome",
+			"webRoot": "${workspaceFolder}"
+		},
+			{
+				"name": "Python: FastAPI",
+				"type": "python",
+				"request": "launch",
+				"module": "uvicorn",
+				"args": [
+					"main:app"
+				],
+				"jinja": true,
+				"justMyCode": true
+			}
+		]
 	}
 }
