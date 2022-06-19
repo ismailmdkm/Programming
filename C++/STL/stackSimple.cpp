@@ -11,7 +11,7 @@ int main() {
   numbers.push(1);
   numbers.push(100);
   numbers.push(10);
-  numbers.push(100);
+  numbers.push(100); 
 
   cout << "Numbers are: ";
 
